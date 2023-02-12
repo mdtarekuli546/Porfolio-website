@@ -1,0 +1,192 @@
+@media (min-width: 1400px) {}
+@media (min-width: 1200px) and (max-width: 1399px){}
+@media (min-width: 992px) and (max-width: 1199px){}
+@media (min-width: 768px) and (max-width: 991px){
+    .menu li a {
+        padding: 10px 10px;
+        font-size: 17px;
+    }
+    .text {
+        font-size: 20px;
+        width: 46%;
+    }
+    .box img {
+        width: 230px;
+        height: 200px;
+        transition: all linear 0.3s;
+    } 
+    .im img {
+        width: 331px;
+        height: 350px;
+    }
+    .texts h1 {
+        color: rgb(47, 7, 247);
+        font-size: 25px;
+        font-weight: 500;
+        padding-top: 3px;
+    }
+    .blog p {
+        text-align: justify;
+        width: 92%;
+        font-size: 13px;
+    }
+    .icons-area {
+        display: flex;
+        gap: 14px;
+        margin-top: 30px;
+    }
+    .header-bottom {
+       
+        min-height: 400px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .menu li a {
+        padding: 10px 10px;
+        font-size: 17px;
+    }
+    .menus {
+        flex-direction: column;
+    }
+    .hire {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .pr{
+        display: flex;
+        justify-content: center;
+    }
+    .texts h1 {
+        padding-top: 3px;
+    }
+    .about-area {
+        flex-direction: column;
+    }
+    .im{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 40px;
+    }
+    .im img{
+       width: 100%;
+    }
+    .service-area p {
+        text-align: justify;
+        font-size: 17px;
+        width: 100%;
+    }
+    .card-div {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .card{
+        width: 100%;
+        margin: 0;
+    }
+    .service-area p {
+        text-align: center;
+    }
+    .contant {
+        margin-top: 40px;
+        flex-direction: column;
+    }
+    .box img {
+        width: 100%;
+        height: 400px;
+    }
+    .contant div {
+        width: 100%;
+        height: 400px;
+    }
+    .contact {
+        flex-direction: column;
+    }
+    .text{
+       width: 35%;
+       margin:0 auto;
+       text-align:center;
+    }
+}
+@media (min-width: 250px) and (max-width: 575px){
+    .menu li a {
+        padding: 10px 10px;
+        font-size: 17px;
+    }
+    .icons-area {
+        gap: 10px;
+    }
+    .menus {
+        flex-direction: column;
+    }
+    .hire {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .pr{
+        display: flex;
+        justify-content: center;
+    }
+    .texts h1 {
+        padding-top: 3px;
+    }
+    .about-area {
+        flex-direction: column;
+    }
+    .im{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 40px;
+    }
+    .im img{
+       width: 100%;
+    }
+    .service-area p {
+        text-align: justify;
+        font-size: 17px;
+        width: 100%;
+    }
+    .card-div {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .card{
+        width: 100%;
+        margin: 0;
+    }
+    .service-area p {
+        text-align: center;
+    }
+    .contant {
+        margin-top: 40px;
+        flex-direction: column;
+    }
+    .box img {
+        width: 100%;
+        height: 400px;
+    }
+    .contant div {
+        width: 100%;
+        height: 400px;
+    }
+    .contact {
+        flex-direction: column;
+    }
+    .text {
+        width: 84%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .menu {
+        display: none;
+    }
+    .sub {
+        width: 100%;
+    }
+    input {
+        box-sizing: border-box;
+    }
+    textarea {
+        box-sizing: border-box;
+    }
+    
+}
